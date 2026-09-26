@@ -57,6 +57,13 @@ classDiagram
         + toString() : String
     }
 
+    Libro <|-- LibroTexto
+    Libro <|-- Novela
+    LibroTexto <|-- LibroTextoUNIAC
+```
+
+---
+
 2. Algoritmo en Java implementado (Código fuente)
 El código fuente completo con estructura Maven se encuentra en la ruta:
 
